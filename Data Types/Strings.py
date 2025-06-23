@@ -39,3 +39,11 @@ print(f"My name is {name} and I am {age} years old.")  # Using f-strings for for
 # Format using f-strings with floats
 pi = 3.14159
 print(f"The value of pi is approximately {pi:.2f}.")  # Using f-strings with float formatting
+print(f"My name is  {name}")  # Using f-strings with variables
+num =4267.4567
+print(f"The value of num is {num:10.4f}")  # Using f-strings
+print("The unit digit is %d" %(num%10))  # Using % operator to get unit digit
+print(f"The tenth place digit is {int(num//10%10)}" )  # Using % operator to get tenth place digit
+print(f"The hunderth place digit is {int(num//100%10)}" )  # Using % operator to get tenth place digit
+print(f"The formatted float values is {num:10.1f}")
+print(f"The formatted string values is {str(num)}")
