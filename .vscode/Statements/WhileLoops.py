@@ -36,4 +36,4 @@ for i in list :
    print(i)
 
 for i,j in enumerate(list):
-    print(i, j)
+    print(i, j)     

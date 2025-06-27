@@ -29,4 +29,4 @@ print(f"Shuffled list: {my_alp_list}")
 print(randint(1, 100))  # Generate a random integer between 1 and 100
 
 name = input("Enter your name: ")
-print(f"Hello, {name}!")
+print(f"Hello, {name}!")      

@@ -18,3 +18,4 @@ if(primeNumber(n)):
 else:
   print(f"{n} is not a prime number")
 
+   
